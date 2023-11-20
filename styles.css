@@ -3,6 +3,7 @@
 /* Applying the Roboto font to the entire body */
 body {
 	font-family: "Roboto", sans-serif;
+	margin: 0px;
 }
 
 section {
@@ -11,12 +12,13 @@ section {
 
 header {
 	background-color: #1f2937;
-	padding: 0 60px;
+	padding: 20px 60px;
 }
 
 h1 {
 	font-size: 48px;
 	color: #f9faf8;
+	font-weight: 700;
 	margin: 0;
 }
 
@@ -50,6 +52,7 @@ footer {
 
 .header-logo-text {
 	font-size: 24px;
+	font-weight: 700;
 	color: #f9faf8;
 	text-decoration: none;
 }
