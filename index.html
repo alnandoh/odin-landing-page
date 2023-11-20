@@ -8,75 +8,91 @@
 	</head>
 	<body>
 		<header>
-			<a href="index.html">Header Logo</a>
-			<nav>
-				<ul>
-					<li>Header Link 1</li>
-					<li>Header Link 2</li>
-					<li>Header Link 3</li>
-				</ul>
-			</nav>
-		</header>
-		<section>
-			<div>
-				<h1>This website is awesome</h1>
-				<p>
-					This website has some subtext that goes here under the main title.
-					It's a smaller font and the color is lower contrast.
-				</p>
-				<button>Sign Up</button>
+			<div class="container flex-row justify-between">
+				<a href="index.html" class="header-logo-text">Header Logo</a>
+				<nav>
+					<div class="flex-row justify-between" style="gap: 100px">
+						<a href="/index.html" class="header-link-text">Header Link 1</a>
+						<a href="/index.html" class="header-link-text">Header Link 2</a>
+						<a href="/index.html" class="header-link-text">Header Link 3</a>
+					</div>
+				</nav>
 			</div>
-			<image
-				src=""
-				height="350"
-				width="600"
-				placholder="this is a placeholder for an image"
-			/>
-		</section>
-		<section>
-			<div>
-				<h2>Some random information</h2>
-				<div>
-					<div>
-						<img src="" alt="" />
-						<div>This is some subtext under an illustration or image</div>
+		</header>
+		<section class="hero">
+			<div class="container flex-row justify-between" style="gap: 20px">
+				<div style="width: 450px">
+					<h1>This website is awesome</h1>
+					<p class="hero-secondary-text" style>
+						This website has some subtext that goes here under the main title.
+						It's a smaller font and the color is lower contrast.
+					</p>
+					<button>Sign Up</button>
+				</div>
+				<div class="hero-img">
+					<div style="top: 40%; left: 30%">
+						<p class="white">this is a placeholder for an image</p>
 					</div>
-					<div>
-						<img src="" alt="" />
-						<div>This is some subtext under an illustration or image</div>
-					</div>
-					<div>
-						<img src="" alt="" />
-						<div>This is some subtext under an illustration or image</div>
-					</div>
-					<div>
-						<img src="" alt="" />
-						<div>This is some subtext under an illustration or image</div>
-					</div>
+					<img width="600" height="300" />
 				</div>
 			</div>
 		</section>
 		<section>
-			<div>
-				<div>
+			<div class="container">
+				<h2>Some random information</h2>
+				<div class="flex-row justify-between">
+					<div class="card">
+						<img width="200" height="200" />
+						<p class="card-description">
+							This is some subtext under an illustration or image
+						</p>
+					</div>
+					<div class="card">
+						<img width="200" height="200" />
+						<p class="card-description">
+							This is some subtext under an illustration or image
+						</p>
+					</div>
+					<div class="card">
+						<img width="200" height="200" />
+						<p class="card-description">
+							This is some subtext under an illustration or image
+						</p>
+					</div>
+					<div class="card">
+						<img " width="200" height="200" />
+						<p class="card-description">
+							This is some subtext under an illustration or image
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="quote">
+			<div class="container">
+				<p class="quote-text">
 					This is an inspiring quote, or a testimonial from a customer. Maybe
 					it's just filling the space, or maybe people will actually read it.
 					Who knows? All I know is that it looks nice.
-				</div>
-				<div>- Thor, God of Thunder</div>
+				</p>
+				<p class="quote-author">- Thor, God of Thunder</p>
 			</div>
 		</section>
 		<section>
-			<div>
-				<div>
-					<span>Call to action! It's Time</span><br />
-					Sign up for our product by clicking that button right over there!
+			<div class="container">
+				<div class="cta flex-row justify-between">
+					<p>
+						<span style="font-weight: bold; font-size: 24px"
+							>Call to action! It's time!</span
+						><br />
+						Sign up for our product by clicking that button right over there!
+					</p>
+					<button>Sign Up</button>
 				</div>
-				<button>Sign Up</button>
 			</div>
 		</section>
 		<footer>
-			<div>Copyright ©️ The Odin Project 2021</div>
+			<div class="container center">Copyright ©️ The Odin Project 2021</div>
 		</footer>
 	</body>
 </html>
